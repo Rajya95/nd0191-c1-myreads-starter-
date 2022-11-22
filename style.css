@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+max-resolution: 0;
+padd: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+background-color: blanchedalmond;
+widows: 100;
+position: relative;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px ;
+}
+.logo{
+  text-decoration: none;
+  color: #3a6cf4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+  padding-left: left;
+}
+.navigation a {
+  text-decoration: none;
+  color: #3a6cf4;
+  font-weight: 500;
+  font-size: 1.0em;
+  padding-left: 30px;
+
+}
+
+.navigation a:hover{
+  color: #601cfc
+}
+.section{
+   padding: 100px 200px
+}
+.main{
+  width: 100%
+  min-height: 100vh;
+  display:flex;
+  align-items: center;
+  background: url(images/MM1.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+
+}
+
+.main h2 {
+  font-size: 1.6em;
+  font-weight:bold;
+  color:black;
+
+}
+
+.main h2 sp{
+  display: inline-block;
+  margin-top: 10px;
+  color:#cc338b;
+  font-size: 2em;
+  font-weight: 600;
+
+
+}
+
+.main p{
+  text-align: left;
+  text-decoration: none;
+  font-style: none;
+
+}
+
+.main h3 {
+  color:#cc338b;
+  background-color:#f6cc42;
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight: 600;
+   display: inline-block;
+   padding:0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 0.7s ease;
+
+}
+.main h3:hover{
+  background-color: #ca9d09
+  transform:scale(1.1);
+}
+
+.icons {
+  color: #cc338b;
+  font-size: 1.7em;
+  padding-right: 30px;
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #a92a73;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: #fae6a5;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%)
+  border-radius:10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.icon{
+  color:#471130
+  font-size: 8em;
+  text-align: center;
+}
+
+info {
+  text-align: center;
+}
+
+.info h3 {
+  color: #cc338b;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 10px;
+
+}
+footer{
+background: url(images/file.png) no-repeat;
+background-color:blanchedalmond
+color: fff;
+padding: 2em;
+display: flex;
+}
